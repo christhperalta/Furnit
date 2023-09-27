@@ -1,0 +1,89 @@
+/* start android tablet css values*/
+.devAndroidTablet #jim-body { position: absolute; overflow: auto; }
+.devAndroidTablet #jim-mobile { position: relative; top: 0px; margin: auto; }
+.devAndroidTablet #simulation { position: relative; height: 100%; }
+
+.devAndroidTablet #jim-case #jim-case-top-left { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-corner@2x.png'); background-repeat: no-repeat; float: left; }
+.devAndroidTablet #jim-case #jim-case-top-center { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-horizontal@2x.png'); background-repeat: repeat-x; float: left; }
+.devAndroidTablet #jim-case #jim-case-top-right { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-corner@2x.png'); transform: scaleX(-1); background-repeat: no-repeat; float: left; }
+
+.devAndroidTablet #jim-case #jim-case-center-left { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-vertical@2x.png'); background-repeat: repeat-y; float: left; }
+.devAndroidTablet #jim-case #jim-case-center-center { float: left; position: relative; top:-15px; }
+.devAndroidTablet #jim-case #jim-case-center-right { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-vertical@2x.png'); transform: scaleX(-1); background-repeat: repeat-y; float: left; }
+
+.devAndroidTablet #jim-case #jim-case-bottom-left { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-corner@2x.png'); transform: scaleY(-1); background-repeat: no-repeat; float: left; position: relative; top:-30px; }
+.devAndroidTablet #jim-case #jim-case-bottom-center { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-horizontal@2x.png'); transform: scaleY(-1); background-repeat: repeat-x; float: left; position: relative; top:-15px; }
+.devAndroidTablet #jim-case #jim-case-bottom-right { background-image: url('../../../../../images/mobile/android/android12/tablet/custom-corner@2x.png'); transform: scale(-1); background-repeat: no-repeat; float: left; position: relative; top:-30px; }
+
+.devAndroidTablet #jim-case #cc-pieces { display:block; }
+.devAndroidTablet #jim-mobile .ui-page { overflow:hidden; }
+
+.devAndroidTablet #jim-case.landscape { transform:rotate(-90deg); }
+
+/* KEYBOARD PORTRAIT VALUES */
+.devAndroidTablet .portrait #jim-android-kb {height: 255px;}
+.devAndroidTablet .portrait #jim-android-kb .row { height: 42px;}
+.devAndroidTablet .portrait #jim-android-kb .row > div { padding-top: 10px; padding-bottom: 10px;}
+
+/*Special rules for numbers and first key of the row*/
+.devAndroidTablet .portrait #jim-android-kb #letters .row:nth-child(2) > div:first-child { margin-left: 6.9%; }
+.devAndroidTablet .portrait #jim-android-kb #url .row:nth-child(2) > div:first-child { margin-left: 6.9%; }
+.devAndroidTablet .portrait #jim-android-kb #email .row:nth-child(2) > div:first-child { margin-left: 6.9%; }
+.devAndroidTablet .portrait #jim-android-kb .row:nth-child(1) > div:last-child { margin-right: 2.09%; }
+.devAndroidTablet .portrait #jim-android-kb .row:nth-child(2) > div:last-child { margin-right: 2.09%; }
+.devAndroidTablet .portrait #jim-android-kb .row:nth-child(3) > div:last-child { margin-right: 2.09%; }
+.devAndroidTablet .portrait #jim-android-kb .row:nth-child(4) > div:last-child { margin-right: 2.09%; }
+
+/* Keyboard special keys */
+.devAndroidTablet .portrait #jim-android-kb .row > div.space { width:57.5%; padding-top: 17.5px; padding-bottom: 6px; border-radius: 5px;}
+.devAndroidTablet .portrait #jim-android-kb #letters .row > div.return { width:14.25%;}
+.devAndroidTablet .portrait #jim-android-kb #email .row > div.return { width:14.25%;}
+.devAndroidTablet .portrait #jim-android-kb #url .row > div.return { width:14.25%;}
+.devAndroidTablet .portrait #jim-android-kb .row > div.return { width:7.75%;}
+.devAndroidTablet .portrait #jim-android-kb .row > div.backspace { width:7.75%;}
+.devAndroidTablet .portrait #jim-android-kb .row > div.num { width:7.75%; padding-top: 15px; padding-bottom: 8.5px;}
+.devAndroidTablet .portrait #jim-android-kb .row > div.emote { width:7.75%; padding-top: 12px; padding-bottom: 12px;}
+.devAndroidTablet .portrait #jim-android-kb .row > div[class*="shift"] { width: 7.75%;}
+.devAndroidTablet .portrait #jim-android-kb .row > div[class*="numbers"] {width: 7.75%; font-size: 16px; padding-top: 16px; padding-bottom: 7px;}
+.devAndroidTablet .portrait #jim-android-kb #signs .row > div[class*="numbers"] { width: 7.75%; padding-top: 16px; padding-bottom: 4px;}
+.devAndroidTablet .portrait #jim-android-kb .row > div[class*="letters"] { width: 7.75%; padding-top: 16px; padding-bottom: 7px;}
+.devAndroidTablet .portrait #jim-android-kb .row > div[class*="signs"] { width: 7.75%; padding-top: 16px; padding-bottom: 4px;}
+.devAndroidTablet .portrait #jim-android-kb .row > div.char-code-44 {padding-top: 11.5px; padding-bottom: 11.5px;} /* character: , */
+.devAndroidTablet .portrait #jim-android-kb .row > div.char-code-46 {padding-top: 11.5px; padding-bottom: 11.5px;} /* character: , */
+.devAndroidTablet .portrait #jim-android-kb .row > div.char-code-60 {padding-top: 11.5px; padding-bottom: 11.5px;} /* character: < */
+.devAndroidTablet .portrait #jim-android-kb .row > div.char-code-62 {padding-top: 11.5px; padding-bottom: 11.5px;} /* character: > */
+
+/* KEYBOARD LANDSCAPE VALUES */
+.devAndroidTablet .landscape #jim-android-kb {height: 225px;}
+.devAndroidTablet .landscape #jim-android-kb .row { height: 42px;}
+.devAndroidTablet .landscape #jim-android-kb .row > div { width: 7.75%;  padding-top: 7px; padding-bottom: 7px;}
+
+/*Special rules for numbers and first key of the row*/
+.devAndroidTablet .landscape #jim-android-kb #letters .row:nth-child(2) > div:first-child { margin-left: 4.5%; }
+.devAndroidTablet .landscape #jim-android-kb #url .row:nth-child(2) > div:first-child { margin-left: 4.5%; }
+.devAndroidTablet .landscape #jim-android-kb #email .row:nth-child(2) > div:first-child { margin-left: 4.5%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(1) > div:first-child { margin-left: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(2) > div:first-child { margin-left: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(3) > div:first-child { margin-left: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(4) > div:first-child { margin-left: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(1) > div:last-child { margin-right: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(2) > div:last-child { margin-right: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(3) > div:last-child { margin-right: 1.25%; }
+.devAndroidTablet .landscape #jim-android-kb .row:nth-child(4) > div:last-child { margin-right: 1.25%; }
+
+/* Keyboard special keys */
+.devAndroidTablet .landscape #jim-android-kb .row > div.space { width:52.5%; padding-top: 14.5px; padding-bottom: 0px; border-radius: 5px;}
+.devAndroidTablet .landscape #jim-android-kb #letters .row > div.return { width:13.25%;}
+.devAndroidTablet .landscape #jim-android-kb #url .row > div.return { width:13.25%;}
+.devAndroidTablet .landscape #jim-android-kb #email .row > div.return { width:13.25%;}
+.devAndroidTablet .landscape #jim-android-kb .row > div.return { width:7.75%;}
+.devAndroidTablet .landscape #jim-android-kb .row > div.backspace { width:7.75%;}
+.devAndroidTablet .landscape #jim-android-kb .row > div.num { width:7.75%; padding-top: 12px; padding-bottom: 3px;}
+.devAndroidTablet .landscape #jim-android-kb .row > div.emote { width:7.75%; padding-bottom: 7.25px;}
+.devAndroidTablet .landscape #jim-android-kb .row > div[class*="shift"] { width: 7.75%;}
+.devAndroidTablet .landscape #jim-android-kb .row > div[class*="numbers"] {width: 7.75%; font-size: 16px; padding-top: 11px; padding-bottom: 2px;}
+.devAndroidTablet .landscape #jim-android-kb #signs .row > div[class*="numbers"] { width: 7.75%; padding-bottom: 2px;}
+.devAndroidTablet .landscape #jim-android-kb .row > div[class*="letters"] { width: 7.75%; padding-top: 11px; padding-bottom: 3px;}
+.devAndroidTablet .landscape #jim-android-kb .row > div[class*="signs"] { width: 7.75%; padding-top: 9px; padding-bottom: 4px;}
+.devAndroidTablet .landscape #jim-android-kb .row > div.char-code-44 {padding-bottom: 7px;} /* character: , */
+.devAndroidTablet .landscape #jim-android-kb .row > div.char-code-46 {padding-bottom: 7px;} /* character: , */
